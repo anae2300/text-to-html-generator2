@@ -1,4 +1,3 @@
-
 #!/bin/sh
-
-INPUT="
+INPUT="Data.txt" 
+OUTPUT="Output.html"
