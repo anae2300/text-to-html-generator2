@@ -1,0 +1,4 @@
+TITLE=MINIMAL Computing Lab 
+AUTHOR=Ana Encarnacion 
+COURSE=Module One: Foundations of Decentralization
+DESCRIPTION=This page was generated locally from plain-text data using a dependency-free shell script.
