@@ -37,3 +37,7 @@ else
     echo "FAIL: output is 5 KB or larger."
     exit 1
 fi
+
+chmod +x generate2.sh 
+
+
