@@ -1,6 +1,6 @@
 #!/bin/sh
-INPUT="Data.txt" 
-OUTPUT="Output.html"
+INPUT="data.txt" 
+OUTPUT="output.html"
 
 # Read plain-text fields
 TITLE=$(sed -n 's/^TITLE=//p' "$INPUT")
@@ -36,8 +36,4 @@ if [ "$SIZE" -lt 5120 ]; then
 else
     echo "FAIL: output is 5 KB or larger."
     exit 1
-fi
-
-chmod +x generate2.sh 
-
-
+fi 
